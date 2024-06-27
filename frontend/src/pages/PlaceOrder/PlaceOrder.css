@@ -1,0 +1,92 @@
+.place-order {
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+   
+   
+  }
+  
+  .place-order-left,
+  .place-order-right {
+    width: 48%;
+  }
+  
+  .place-order-left .title {
+    font-size: 24px;
+    margin-bottom: 20px;
+    font-weight: bold;
+  }
+  
+  .place-order-left .multi-fields {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 10px;
+  }
+  
+  .place-order-left input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+  }
+  
+  .place-order-right .cart-total {
+    background-color: #fff;
+    padding: 20px;
+   
+  }
+  
+  .place-order-right .cart-total h2 {
+    margin-top: 0;
+    font-size: 24px;
+  }
+  
+  .place-order-right .cart-total-details {
+    display: flex;
+    justify-content: space-between;
+    margin: 10px 0;
+  }
+  
+  .place-order-right .cart-total-details p,
+  .place-order-right .cart-total-details b {
+    margin: 0;
+  }
+  
+  .place-order-right hr {
+    margin: 10px 0;
+  }
+  
+  .place-order-right button {
+    width: max(12vw , 180px);
+    margin-top: 12px;
+    padding: 12px 0px;
+    background-color: tomato;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .place-order-right button:hover {
+    background-color: #218838;
+  }
+  
+
+  @media screen and (max-width: 750px) {
+    .place-order {
+      flex-direction: column;
+    }
+  
+    .place-order-left,
+    .place-order-right {
+      width: 100%;
+      margin-bottom: 20px;
+    }
+  
+    .place-order-left .multi-fields {
+      flex-direction: column;
+      gap: 0;
+    }
+  }
