@@ -27,6 +27,7 @@ const addFood = async (req, res) => {
     }
 }
 
+
 // All food List
 
 const listFood = async(req,res)=>{
@@ -39,6 +40,8 @@ const listFood = async(req,res)=>{
     res.json({success:false,message:"Error"})
    }
 }
+
+
 
 //remove food item
 
