@@ -105,6 +105,31 @@
     color: tomato;
 }
 
+.navbar-search {
+    position: relative;
+  }
+  
+  .search-results {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width: 100%;
+    background: white;
+    border: 1px solid #ddd;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15);
+    z-index: 1000;
+  }
+  
+  .search-result-item {
+    padding: 8px;
+    cursor: pointer;
+  }
+  
+  .search-result-item:hover {
+    background: #f0f0f0;
+  }
+  
+
 @media (max-width:1050px) {
     .navbar .logo {
         width: 140px;
@@ -154,3 +179,5 @@
     }
    
 }
+
+

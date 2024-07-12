@@ -8,6 +8,7 @@ import Footer from "./components/Footer/Footer";
 import LoginPopup from "./components/LoginPopup/LoginPopup";
 
 
+
 const App = () => {
   const [showLogin, setShowLogin] = useState(false);
 
@@ -21,6 +22,7 @@ const App = () => {
           <Route path="/" element={<Home />} />
           <Route path="/carte" element={<Carte />} />
           <Route path="/order" element={<PlaceOrder />} />
+         
         </Routes>
       </div>
       <Footer />
