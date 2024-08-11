@@ -9,7 +9,7 @@ import CartRouter from "./routes/cartRoute.js"
 
 //app config
 const app = express()
-const port = 4000 //my port
+const port = process.env.PORT || 4000 //my port
 
 
 //middleware
